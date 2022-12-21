@@ -1,0 +1,260 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:cursive;
+}
+body{
+    background-color:rgb(244, 249, 250);
+}
+
+#navbar div img{
+    transition: all 5s ease-in-out 1s;
+    box-shadow: inset 15px 15px yellowgreen;
+}
+#navbar div img:hover{
+    transform:rotate(30deg);
+    transform:scale(2);
+}
+
+#navbar{
+    display:flex;
+    align-items:center;                             /* */
+    height:70px; 
+    margin:2px;
+    padding:2px; 
+    position:relative;                              /* */
+}
+#navbar::before{
+    background-color: black;
+    content:"";
+    position:absolute;                              /* */
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity: 0.3;
+}
+#logo{
+    margin:9px;
+    padding:9px;
+
+}
+nav div img{
+    height:70px;
+    margin:0px 12px;
+   
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    list-style:none;
+    font-size:20px;
+}
+nav ul li a{
+
+    color: black;
+    border:1px solid black;
+    display: block;                 /* */
+    border-radius: 20px;
+    text-decoration: none;
+    padding:9px 20px;
+    margin:9px 20px;
+    font-weight:bold;
+}
+nav ul li a:hover{
+    background-color:white;
+    color:blue;
+    text-decoration: underline;;
+}
+
+#home{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin:12px 200px;
+    padding:12px 12px;
+    height:500px;
+    color:white;
+}
+#home::before{
+    display:flex;
+    content:"";
+    background:url('bg14.jpg') no-repeat center center/cover;
+    position:absolute;
+    top:70px;
+    left:0px;
+    height:500px;
+    width:100%;
+    z-index:-1;
+    opacity: 0.89;
+}
+
+#head1{
+    font-size:3.5rem;
+    margin:18px 0px;
+}
+#home p{
+    font-size:1.5rem;
+    text-align:center;
+}
+.btn{
+    margin:15px;
+    padding:8px;
+    font-size:20px;
+    font-weight:bold;
+    border:4px solid yellow;
+    box-shadow:inset 3px 3px orange;
+    cursor:pointer;
+}
+
+#serve{
+    height:450px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+}
+.head2{
+    font-size:40px;
+    padding:4px;
+    margin-bottom:20px;
+    color:purple;
+    box-shadow: 10px 10px 20px orange;
+    margin-top:5px;
+
+}
+
+.services{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.box{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px 12px;
+    margin:3px 12px;
+    border:2px solid black;
+    background-color:rgb(251, 211, 217);
+    border-radius:20px;
+
+}
+#box1{
+    height:160px;
+}
+.services div p{
+    text-align:center;
+    padding:8px;
+}
+
+.partner-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:350px;
+}
+
+.partner-section::before{
+    display:flex;
+    content:"";
+    background:url('bg11.jpg') no-repeat center center/cover;
+    position:absolute;
+    top:1100px;
+    left:0px;
+    height:350px;
+    width:100%;
+    z-index:-1;
+    opacity: 0.82;
+}
+.partnership{
+    font-size:40px;
+    padding:4px;
+    margin-bottom:20px;
+    color:white;
+    box-shadow: 10px 10px 20px black;
+
+}
+
+.center1{
+    height:150px;
+    width:150px;
+}
+.center{
+    margin:30px;
+    paddin:20px;
+    border: 2px solid black;
+}
+#partner{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+
+#contact{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    height:300px;
+}
+
+#contact:before{
+    display:flex;
+    content:"";
+    background: url('bg3.jpg')no-repeat center center/cover;
+    position:absolute;
+    top:1455px;
+    left:0px;
+    height:300px;
+    width:100%;
+    z-index:-1;
+    opacity: 0.65;
+
+}
+#contact-box form input{
+    margin:3px 5px;
+    padding:3px 5px;
+    font-size:15px;
+    border-radius:17px;
+}
+
+#btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+    background-color: greenyellow;
+    color:black;
+    border-radius:10px;
+    font-weight:bold;
+    font-size:15px;
+    margin:auto;
+    
+
+}
+#btn:hover{
+    color:blue;
+    background-color: white;;
+    text-decoration: underline ;
+}
+form label{
+    font-size:20px;
+    font-weight:bold;
+
+}
+
+footer{
+    background-color: rgb(31, 29, 29);
+    color:white;
+    padding:9px;
+    text-align:center;
+}
